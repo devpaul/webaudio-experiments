@@ -1,7 +1,6 @@
 {
 	"description": "",
 	"devDependencies": {
-		"intern": "^4.1.5",
 		"lerna": "^2.9.0",
 		"prettier": "^1.11.1"
 	},

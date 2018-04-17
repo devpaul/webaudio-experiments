@@ -1,14 +1,14 @@
 export class Player {
-	private context: AudioContext;
+	private context!: AudioContext;
 
-	private buffer: AudioBuffer;
+	private buffer!: AudioBuffer;
 
 	init() {
 		this.context = this.createAudioContext();
 	}
 
 	async load() {
-		const response = await fetch('./jump.mp3');
+		const response = await fetch('./assets/jump.mp3');
 		const audio = await response.arrayBuffer();
 		this.buffer = await this.context.decodeAudioData(audio);
 		return this.buffer;

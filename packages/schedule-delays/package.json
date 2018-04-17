@@ -1,0 +1,21 @@
+{
+  "name": "schedule-delays",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./_build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "pack": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MPL-2.0",
+  "devDependencies": {
+    "typescript": "^2.8.1",
+    "webpack-cli": "^2.0.14"
+  },
+  "dependencies": {
+    "ts-loader": "^4.2.0",
+    "webpack": "^4.5.0"
+  }
+}
