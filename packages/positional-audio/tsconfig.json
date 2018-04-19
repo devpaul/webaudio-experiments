@@ -1,0 +1,11 @@
+{
+	"compilerOptions": {
+		"importHelpers": false,
+		"outDir": "_build/"
+	},
+	"extends": "../../tsconfig.json",
+	"include": [
+		"./src/**/*.ts",
+		"./tests/**/*.ts"
+	]
+}

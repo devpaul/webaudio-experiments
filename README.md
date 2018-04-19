@@ -1,4 +1,4 @@
-# Monorepo project starter
+# WebAudio experiments
 
 This project uses [lerna](https://github.com/lerna/lerna) to manage workflow between projects.
 
@@ -21,12 +21,8 @@ Builds application packages locally
 
 pretties up all of the source code according to prettier rules
 
-### Test
+### Serve
 
-`lerna run test`
+`npm run serve`
 
-TODO tests application packages
-
-`lerna run ci`
-
-TODO runs the full suite of tests against packages
+connect to http://localhost:8080

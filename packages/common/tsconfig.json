@@ -1,0 +1,13 @@
+{
+	"compilerOptions": {
+		"declaration": true,
+		"importHelpers": false,
+		"outDir": "_build/",
+		"module": "commonjs"
+	},
+	"extends": "../../tsconfig.json",
+	"include": [
+		"./src/**/*.ts",
+		"./tests/**/*.ts"
+	]
+}
